@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context="com.caampued.projectuserinterfacescreenlayout.Game">
+
+
+    <Button
+        android:text="atom"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/Answer1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_above="@+id/Answer2"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:text="mato"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="115dp"
+        tools:layout_editor_absoluteX="88dp"
+        android:id="@+id/Answer2"
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Answer1"
+        android:layout_alignStart="@+id/Answer1" />
+    <Button
+        android:text="NATO"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:id="@+id/Answer3"
+        android:layout_alignBaseline="@+id/Answer1"
+        android:layout_alignBottom="@+id/Answer1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:text="NOAT"
+        android:id="@+id/Answer4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Answer2"
+        android:layout_alignBottom="@+id/Answer2"
+        android:layout_alignLeft="@+id/Answer3"
+        android:layout_alignStart="@+id/Answer3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Exit"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:id="@+id/Exit"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/Answer1"
+        android:layout_alignStart="@+id/Answer1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/samplequestion"
+        android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:59"
+        android:textColor="#D3D3D3"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Answer3"
+        android:layout_alignEnd="@+id/Answer3"
+        android:layout_marginTop="15dp" />
+
+
+
+</RelativeLayout>

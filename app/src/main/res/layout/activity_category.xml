@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context="com.caampued.projectuserinterfacescreenlayout.Category">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/category"/>
+
+<Button
+    android:id="@+id/SciG"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="Science"
+    android:textColor="#3168FC"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="125dp"
+    android:background="@drawable/button_bg_rounded_corners"/>
+
+
+<Button
+    android:id="@+id/AniG"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="Animals"
+    android:textColor="#F96134"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="185dp"
+    android:background="@drawable/button_bg_rounded_corners"/>
+
+<Button
+    android:id="@+id/HisG"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="History"
+    android:textColor="#3168FC"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="245dp"
+    android:background="@drawable/button_bg_rounded_corners"/>
+<Button
+    android:id="@+id/PeepsG"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="People"
+    android:textColor="#F96314"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="305dp"
+    android:background="@drawable/button_bg_rounded_corners"/>
+<Button
+    android:id="@+id/back"
+    android:layout_width="175dp"
+    android:layout_height="wrap_content"
+    android:text="Home"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="415dp"
+    android:background="@drawable/button_bg_rounded_corners"/>
+</RelativeLayout>
